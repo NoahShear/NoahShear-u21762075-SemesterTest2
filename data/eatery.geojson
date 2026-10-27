@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "eatery",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 0, "id": 0, "Name": "Tenz", "Closing Time": "18:00", "Opening Time": "07:00" }, "geometry": { "type": "Point", "coordinates": [ 28.234550668731007, -25.755815272588215 ] } },
+{ "type": "Feature", "properties": { "fid": 1, "id": 1, "Name": "Piazza", "Closing Time": null, "Opening Time": null }, "geometry": { "type": "Point", "coordinates": [ 28.23171897791326, -25.754368035122745 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "id": null, "Name": "Vide e caffe", "Closing Time": "17:00", "Opening Time": "08:00" }, "geometry": { "type": "Point", "coordinates": [ 28.23404257009625, -25.75567639100597 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "id": 2, "Name": "Adler's Cafe", "Closing Time": "17:00", "Opening Time": "07:00" }, "geometry": { "type": "Point", "coordinates": [ 28.234166661277413, -25.755468034185469 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "id": null, "Name": "Tuks Res Food Truck", "Closing Time": "15:00", "Opening Time": "08:00" }, "geometry": { "type": "Point", "coordinates": [ 28.234187532216311, -25.754790315404538 ] } },
+{ "type": "Feature", "properties": { "fid": 23, "id": 23, "Name": "Adler's@Law", "Closing Time": "16:30", "Opening Time": "08:30" }, "geometry": { "type": "Point", "coordinates": [ 28.233815813923858, -25.75404968719101 ] } },
+{ "type": "Feature", "properties": { "fid": 27, "id": 27, "Name": "Monastery", "Closing Time": "18:00", "Opening Time": "09:30" }, "geometry": { "type": "Point", "coordinates": [ 28.233245352741008, -25.754457419183939 ] } },
+{ "type": "Feature", "properties": { "fid": 28, "id": null, "Name": "Pure Cafe", "Closing Time": "16:00", "Opening Time": "07:00" }, "geometry": { "type": "Point", "coordinates": [ 28.229326297303913, -25.754247409680012 ] } }
+]
+}

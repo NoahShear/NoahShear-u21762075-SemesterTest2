@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "bathroom",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 0, "id": 1.0, "Access": "Yes", "Level": 0.0, "Entry": 1.0, "Male": "Yes", "Female": "Yes" }, "geometry": { "type": "Point", "coordinates": [ 28.234160136921133, -25.755481114291651 ] } },
+{ "type": "Feature", "properties": { "fid": 1, "id": null, "Access": "Yes", "Level": 1.0, "Entry": 1.0, "Male": "No", "Female": "Yes" }, "geometry": { "type": "Point", "coordinates": [ 28.230666546151042, -25.753572299145159 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "id": null, "Access": "No", "Level": 2.0, "Entry": 0.0, "Male": "No", "Female": "Yes" }, "geometry": { "type": "Point", "coordinates": [ 28.230446940287948, -25.753419580869377 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "id": null, "Access": "Yes", "Level": 2.0, "Entry": 1.0, "Male": "Yes", "Female": "No" }, "geometry": { "type": "Point", "coordinates": [ 28.23053989559412, -25.753470039926469 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "id": null, "Access": "Yes", "Level": 3.0, "Entry": 1.0, "Male": "Yes", "Female": "No" }, "geometry": { "type": "Point", "coordinates": [ 28.23046685723472, -25.753565841898471 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "id": 5.0, "Access": "Yes", "Level": 0.0, "Entry": null, "Male": "Yes", "Female": "Yes" }, "geometry": { "type": "Point", "coordinates": [ 28.234355421736836, -25.755020733922727 ] } },
+{ "type": "Feature", "properties": { "fid": 21, "id": 21.0, "Access": "Yes", "Level": 1.0, "Entry": null, "Male": "Yes", "Female": "Yes" }, "geometry": { "type": "Point", "coordinates": [ 28.233550127565152, -25.754042709824748 ] } },
+{ "type": "Feature", "properties": { "fid": 22, "id": 22.0, "Access": "Yes", "Level": 1.0, "Entry": null, "Male": "Yes", "Female": "Yes" }, "geometry": { "type": "Point", "coordinates": [ 28.233802313095147, -25.754097980701328 ] } },
+{ "type": "Feature", "properties": { "fid": 24, "id": 24.0, "Access": "Yes", "Level": 1.0, "Entry": null, "Male": "Yes", "Female": "Yes" }, "geometry": { "type": "Point", "coordinates": [ 28.234476877823596, -25.754122700206363 ] } },
+{ "type": "Feature", "properties": { "fid": 26, "id": 26.0, "Access": "Yes", "Level": 3.0, "Entry": null, "Male": "Yes", "Female": "Yes" }, "geometry": { "type": "Point", "coordinates": [ 28.233804638127975, -25.754098512881978 ] } },
+{ "type": "Feature", "properties": { "fid": 28, "id": 28.0, "Access": "No", "Level": 1.0, "Entry": null, "Male": "Yes", "Female": "Yes" }, "geometry": { "type": "Point", "coordinates": [ 28.233079546913846, -25.754412127071028 ] } },
+{ "type": "Feature", "properties": { "fid": 29, "id": 3.0, "Access": "Yes", "Level": 0.0, "Entry": null, "Male": "Yes", "Female": "Yes" }, "geometry": { "type": "Point", "coordinates": [ 28.234499841928482, -25.755070857703682 ] } }
+]
+}

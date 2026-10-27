@@ -1,0 +1,64 @@
+:root {
+  --header-bg: #b918b1;
+  --header-text: #f3f6f1;
+  --accent: #fcf5f525;
+  --border: #cfd8d2;
+  --header-h: 64px;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font-family: "Segoe UI", Roboto, Arial, sans-serif; }
+body { display: flex; flex-direction: column; }
+
+.header-bar {
+  height: var(--header-h);
+  background: var(--header-bg);
+  color: var(--header-text);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 20px;
+  border-bottom: 3px solid var(--accent);
+  z-index: 1000;
+}
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand h1 { font-size: 1.15rem; font-weight: 600; margin: 0; white-space: nowrap; }
+.brand-mark { width: 14px; height: 14px; background: var(--accent); border-radius: 3px; }
+
+.search-bar { display: flex; flex: 0 1 240px; }
+.search-bar input {
+  flex: 1; min-width: 0;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  font-size: 0.85rem;
+}
+.search-bar button {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border: none;
+  background: var(--accent);
+  color: #1f3a2e;
+  font-weight: 600;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+.search-bar button:hover { filter: brightness(1.08); }
+.search-bar :focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+main { flex: 1; position: relative; }
+#map { position: absolute; inset: 0; }
+
+@media (max-width: 600px) {
+  .brand h1 { font-size: 0.95rem; }
+  .search-bar button { padding: 9px 10px; }
+}
+
+.popup-table { border-collapse: collapse; }
+.popup-table th { text-align: left; padding: 2px 10px 2px 0; color: #1f3a2e; }
+.popup-table td { padding: 2px 0; }
+
+.legend { background: #fff; padding: 8px 10px; border-radius: 6px; font-size: 0.8rem; line-height: 1.5; box-shadow: 0 1px 4px rgba(0,0,0,.3); }
+.legend i { display: inline-block; width: 14px; height: 14px; margin-right: 6px; vertical-align: middle; border: 1px solid #1f3a2e; }
+.leaflet-popup-content { max-height: 240px; overflow: auto; }

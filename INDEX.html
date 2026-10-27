@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UNIVERSITY OF PRETORIA SMART CAMPUS</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="STYLE.css">
+</head>
+<body>
+  <header class="header-bar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <h1>UNIVERSITY OF PRETORIA SMART CAMPUS</h1>
+    </div>
+    <form class="search-bar" id="searchForm" role="search">
+      <input type="search" id="searchInput" placeholder="Search building"
+             aria-label="Search buildings" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+    <div id="map" aria-label="Campus map"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="APP.js"></script>
+</body>
+</html>
